@@ -1,4 +1,4 @@
-package hello.upload;
+package hello.upload.controller;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
