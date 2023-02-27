@@ -1,9 +1,11 @@
-logging:
-  level:
-    org.apache.coyote.http11: debug
+#logging:
+#  level:
+#    org.apache.coyote.http11: debug
 spring:
   servlet:
     multipart:
       enabled: true
       max-file-size: 1MB
       max-request-size: 10MB
+file:
+  dir: /Users/csupreme19/git/study/spring/spring-mvc/upload/files/
